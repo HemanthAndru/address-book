@@ -75,6 +75,9 @@
     
    <scm>
     <connection>scm:git:https://github.com/HemanthAndru/address-book.git</connection>
+    <developerConnection>scm:git:https://github.com/HemanthAndru/address-book.git</developerConnection>
+    <url>https://github.com/HemanthAndru/address-book.git</url>
+    <tag>HEAD</tag>
    </scm>
     
     <build>
