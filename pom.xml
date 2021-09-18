@@ -5,7 +5,7 @@
     <groupId>com.vaadin.tutorial</groupId>
     <artifactId>addressbook</artifactId>
     <packaging>war</packaging>
-    <version>2.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>Vaadin Addressbook example</name>
 
     <properties>
@@ -65,6 +65,18 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Lab-637625657561365925-1-releases</name>
+        <url>http://localhost:8081/artifactory/hemanth-libs-release</url>
+    </repository>
+</distributionManagement>
+    
+   <scm>
+    <connection>scm:git:https://github.com/HemanthAndru/address-book.git</connection>
+   </scm>
+    
     <build>
         <plugins>
             <plugin>
